@@ -4,10 +4,10 @@ import workshop from "@/assets/workshop.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Heritage — Willow & Crown" },
-      { name: "description", content: "The story of a family cricket shop founded in 1987." },
-      { property: "og:title", content: "Heritage — Willow & Crown" },
-      { property: "og:description", content: "The story of a family cricket shop founded in 1987." },
+      { title: "Heritage — Sunrise Sports" },
+      { name: "description", content: "The story of Sunrise Sports cricket shop founded in 1987." },
+      { property: "og:title", content: "Heritage — Sunrise Sports" },
+      { property: "og:description", content: "The story of Sunrise Sports cricket shop founded in 1987." },
     ],
   }),
   component: About,

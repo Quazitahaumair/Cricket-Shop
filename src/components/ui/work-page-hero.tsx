@@ -258,7 +258,7 @@ export const WorkPageHero: React.FC<WorkPageHeroProps> = ({
             <div className="relative w-full h-full bg-[#1a1918]">
               <img
                 src={imageSrc}
-                alt="Willow & Crown Royal Cover Drive"
+                alt="Sunrise Sports Royal Cover Drive"
                 className="w-full h-full object-cover select-none"
                 loading="eager"
               />

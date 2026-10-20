@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ShoppingBag, X, Minus, Plus, Crown } from "lucide-react";
+import { ShoppingBag, X, Minus, Plus, Sun } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { formatPrice } from "@/lib/products";
 
@@ -16,9 +16,9 @@ export function SiteHeader() {
     <header className="fixed inset-x-0 top-0 z-40 border-b bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2">
-          <Crown className="size-5 text-gold" strokeWidth={1.4} />
+          <Sun className="size-5 text-gold" strokeWidth={1.4} />
           <span className="font-display text-2xl tracking-wide">
-            Willow <span className="italic text-gold">&amp;</span> Crown
+            Sunrise <span className="italic text-gold">Sports</span>
           </span>
         </Link>
         <nav className="hidden gap-10 md:flex">
@@ -97,7 +97,7 @@ export function SiteFooter() {
     <footer className="border-t border-[#e3dbce] bg-[#f4efe6]">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-4">
         <div className="md:col-span-2">
-          <p className="font-display text-4xl text-[#1a1918]">Willow <span className="italic text-[#8c6d23]">&amp;</span> Crown</p>
+          <p className="font-display text-4xl text-[#1a1918]">Sunrise <span className="italic text-[#8c6d23]">Sports</span></p>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-[#665f54]">Cricket equipment for those who treat the game as an inheritance. Hand-picked, hand-finished, since 1987.</p>
         </div>
         <div className="space-y-2 text-sm text-[#665f54]">
@@ -113,7 +113,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="rule-gold" />
-      <p className="py-6 text-center text-[0.65rem] uppercase tracking-[0.3em] text-[#665f54]">© {new Date().getFullYear()} Willow &amp; Crown · Est. 1987</p>
+      <p className="py-6 text-center text-[0.65rem] uppercase tracking-[0.3em] text-[#665f54]">© {new Date().getFullYear()} Sunrise Sports · Est. 1987</p>
     </footer>
   );
 }

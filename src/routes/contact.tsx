@@ -5,9 +5,9 @@ import { MapPin, Phone, Mail } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Visit the Shop — Willow & Crown" },
+      { title: "Visit the Shop — Sunrise Sports" },
       { name: "description", content: "Find our cricket shop, book a bat fitting, or send us a message." },
-      { property: "og:title", content: "Visit the Shop — Willow & Crown" },
+      { property: "og:title", content: "Visit the Shop — Sunrise Sports" },
       { property: "og:description", content: "Find our cricket shop, book a bat fitting, or send us a message." },
     ],
   }),
@@ -26,7 +26,7 @@ function Contact() {
         <div className="mt-12 space-y-6 text-muted-foreground">
           <p className="flex gap-4"><MapPin className="size-5 text-gold" strokeWidth={1.4} /> 12 Pavilion Road, Near Stadium Gate, Mumbai</p>
           <p className="flex gap-4"><Phone className="size-5 text-gold" strokeWidth={1.4} /> +91 98765 43210</p>
-          <p className="flex gap-4"><Mail className="size-5 text-gold" strokeWidth={1.4} /> hello@willowandcrown.in</p>
+          <p className="flex gap-4"><Mail className="size-5 text-gold" strokeWidth={1.4} /> hello@sunrisesports.in</p>
         </div>
       </div>
       <form

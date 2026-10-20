@@ -9,10 +9,10 @@ import { WorkPageHero } from "@/components/ui/work-page-hero";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Willow & Crown — Royal Cricket Outfitters" },
-      { name: "description", content: "Grade 1 willow bats, hand-stitched balls, ash stumps and leather kit bags from a cricket house established in 1987." },
-      { property: "og:title", content: "Willow & Crown — Royal Cricket Outfitters" },
-      { property: "og:description", content: "Grade 1 willow bats, hand-stitched balls, ash stumps and leather kit bags." },
+      { title: "Sunrise Sports — Royal Cricket Outfitters" },
+      { name: "description", content: "Grade 1 willow bats, hand-stitched balls, ash stumps and leather kit bags from Sunrise Sports, established in 1987." },
+      { property: "og:title", content: "Sunrise Sports — Royal Cricket Outfitters" },
+      { property: "og:description", content: "Grade 1 willow bats, hand-stitched balls, ash stumps and leather kit bags from Sunrise Sports." },
     ],
   }),
   component: Index,
@@ -43,7 +43,7 @@ const PILLARS = [
     n: "III",
     t: "For life & game",
     tag: "Lifetime Stewardship",
-    d: "Annual oiling, re-grips, and handle re-binding for as long as you play the game. A Willow & Crown blade is built to endure, maturing in stroke and sound across generations.",
+    d: "Annual oiling, re-grips, and handle re-binding for as long as you play the game. A Sunrise Sports blade is built to endure, maturing in stroke and sound across generations.",
     specs: ["Complimentary Annual Service", "Handle Re-Centering", "Generational Guarantee"],
   },
 ];

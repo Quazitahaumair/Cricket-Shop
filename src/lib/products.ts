@@ -22,7 +22,7 @@ export const CATEGORIES: Category[] = ["Bats", "Balls", "Stumps", "Kit Bags", "P
 export const PRODUCTS: Product[] = [
   { id: "sovereign-willow", name: "The Sovereign", category: "Bats", price: 24999, image: bat, note: "Grade 1 English willow · 11 grains" },
   { id: "regent-willow", name: "The Regent", category: "Bats", price: 15499, image: bat, note: "Kashmir willow · mid sweet spot" },
-  { id: "crown-ball", name: "Crown Test Ball", category: "Balls", price: 1899, image: ball, note: "Four-piece alum-tanned leather" },
+  { id: "crown-ball", name: "Sunrise Test Ball", category: "Balls", price: 1899, image: ball, note: "Four-piece alum-tanned leather" },
   { id: "club-ball", name: "Club Red · Six Pack", category: "Balls", price: 4499, image: ball, note: "Hand-stitched seam, match grade" },
   { id: "ash-stumps", name: "Ash Stumps & Bails", category: "Stumps", price: 3299, image: stumps, note: "Seasoned ash, brass ferrules" },
   { id: "pavilion-bag", name: "Pavilion Duffle", category: "Kit Bags", price: 8999, image: kitbag, note: "Full-grain leather, brass hardware" },

@@ -6,10 +6,10 @@ import { CATEGORIES, PRODUCTS, type Category } from "@/lib/products";
 export const Route = createFileRoute("/shop")({
   head: () => ({
     meta: [
-      { title: "The Armoury — Willow & Crown" },
-      { name: "description", content: "Shop cricket bats, balls, stumps, kit bags and protective gear." },
-      { property: "og:title", content: "The Armoury — Willow & Crown" },
-      { property: "og:description", content: "Shop cricket bats, balls, stumps, kit bags and protective gear." },
+      { title: "The Armoury — Sunrise Sports" },
+      { name: "description", content: "Shop cricket bats, balls, stumps, kit bags and protective gear from Sunrise Sports." },
+      { property: "og:title", content: "The Armoury — Sunrise Sports" },
+      { property: "og:description", content: "Shop cricket bats, balls, stumps, kit bags and protective gear from Sunrise Sports." },
     ],
   }),
   component: Shop,
